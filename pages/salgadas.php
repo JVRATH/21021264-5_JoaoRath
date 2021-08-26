@@ -19,28 +19,7 @@
 
 		<section class="main_blog">
 				<header class="main_blog_header">
-				<H1>PIPOCAS DOCES</H1>
-	
-		         </header>
-			 <?php
-				foreach($doces as $value)
-				{ ?>
-					<article>
-						<header>         
-							<h1>
-							<a href="index.php?pg=pages/tipos.php&id=<?=$value["id"];?>"><?php echo ($value["foto"]);?></a>
-							</h1>
-							<p><?php echo ($value["nome"]);?></p>
-						</header>       
-					</article>
-				<?php }
-			?>
-	   </section>
-
-
-	   <section class="main_blog">
-				<header class="main_blog_header">
-				<H1>PIPOCAS SALGADAS</H1>
+				<H1>PIPOCAS SALGADAS </H1>
 	
 		         </header>
 			 <?php
@@ -57,7 +36,5 @@
 				<?php }
 			?>
 	   </section>
-
-
   </body>
 </html>

@@ -8,40 +8,28 @@
       <link rel="stylesheet" href="css/boot.css">
       <link rel="stylesheet" href="css/style.css">	 
    </head>
-<body>
+  <body>
 	
-         <h1>PAGINA PRINCIPAL</h1>
-         <header>
-				<a href="#">
-                    <img src="imagens/html5-386614_640.jpg" alt="imagem do produto" title="imagem do produto">
-                </a>
-           </header>
-           <section class="main_blog">
-			<header class="main_blog_header">
-				<h1>Conteúdo das aulas</h1>
-			</header>
-		   <?php
-			    foreach($dados as $key => $value){
-		   ?>
-			        <article>
-			         	<header>
-	   <h2><a href="#" class="category"><?=$value["title"];?></a></h2>
-	     	</header>
-	      <p><?php echo substr($value["description"],0, 150);?>...</p>
-			    <p class="data">Data/hora: 
-					      <?php
-					$date = new DateTime($value["date"]);
-					echo $date->format('d/m/Y');
-				?> às 19h00
+         <h1>QUAL É SEU GOSTO ESCOLHA E SE DELICIE </h1>
+        
+	
+	 
+	  <section class="main_blog">
+				<header class="main_blog_header">
+					<p> 
+					<a href="index.php?pg=pages/doces.php"><img src="imagens/doces.jpg" height="150" alt="logo "    title="logo"></a>
+            
+					<a href="index.php?pg=pages/salgadas.php"><img src="imagens/salgados.png" height="150" alt="logo "    title="logo"></a>
+            
 				</p>
-			   </article>
-			  <?php
-			}
-			?>
+<h3>
+				<p>COMA A MELHOR PIPOCA ARTEZANAL </p> </h3>
+		</header>
 
-		</section>
-           
-		  </div>
-	   </footer>
+	</section>     
+
+
+
+
 </body>
 </html>

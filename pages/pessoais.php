@@ -15,9 +15,9 @@
 
            <h1>DODOS PESSOAIS</h1>
 
-			  	<article>
-				  	<header>         
-						 	<h2>
+		<article>
+				<header>         
+					<h2>
                 <p><?php echo " MOME: ".($registro["nome"]);?>
                 <p><?php echo " EMAIL: ".($registro["email"]);?>
                 <p><?php echo " CURSO: ".($registro["curso"]);?></p>
@@ -26,10 +26,10 @@
                 <p><?php echo " MODULO: ".($registro["modulo"]);?></p>
                 <p><?php echo " POLO: ".($registro["polo"]);?></p>
                 </h2>
-              </table>
-					 </header>  
-             <img src="imagens/faculdade.jpg" height="150" alt="logo " title="logo"></a>     
-				 </article>
-         </p>
+             </table>
+			 </header>  
+            </a>     
+            <p> <a href="https://inscricoes.unicesumar.edu.br/"><img src="imagens/faculdade.jpg" height="150" alt="logo " title="logo"></a></a></p>
+	 </article>     
   </body>
 </html>
