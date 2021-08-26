@@ -1,34 +1,71 @@
 <?php
-	$disciplina = array
+	$registro = array
 	(
-		"nome"   =>"João Valdair Carlos Rath ",
-		"email"  => "jvrath@gmail.com",
-		"ra"     =>"RA = 21021264-5",
-		"disciplina" => "PROGAMAÇÃO BACK END-l",
-		"modulo"=> "53/2021",
-		"curso"=> " Tecnologia Em Sistemas Para Internet",	
+		"nome"   =>"JOÃO VALDAIR CARLOS RATH ",
+		"email"  => "JVRATH@GMAIL.COM",
+		
+		"disciplina"=> "PROGAMAÇÃO BACK END-l",
+		"modulo"    => "53/2021",
+		"curso"     => "TECNOLOGIA EM SISTEMAS PARA INTERNET",
+		"polo"      => "RONCADOR - PR ",
+		"ra"        =>"21021264-5"	
 	);
 
-	$conteudo = array(
-		0 => array("id"=>1, "title"=> "array conteudo[0] = arrray [1]= title", "description" => "ALUNO  JOÃO VALDAIR CARLOS RATH "),
-		1 => array("id"=>2, "title"=> "array conteudo[1] = arrray [1]= title", "description" =>  "array conteudo[1] = arrray [2]= descrisao "),
-		2 => array("id"=>3,  "title"=> "array conteudo[0] = arrray [1]= title", "description" => "array conteudo[2] = arrray [2]= descrisao ")
-	);
+	$dados = array
+		(
+			0 => array( "id"   =>1,
+			            "nome" => "LEITE NINHO", 
+				        "tipo" => "DOCE ",
+				        "preco"=> "R$ 10,00",  
+						"foto" =>"<img src= imagens/leiteninho.jpg>"
+					  ),
 
-	$dados = array(
-		0 => array("id"=>1,"nome" => "PIPOCA LEITE NINHO", 
-			"tipo" => "DOCE ",
-			  "preco"=> "R$ 10,00"),
+			1 => array( "id"=>2,
+						"nome" => "NUTELLA", 
+						"tipo" => "DOCE",
+						"preco"=> "R$ 10,00",
+						"foto" =>"<img src= imagens/nutella.jpg>"
+					  ),
+							
+			2 =>  array( "id"    => 3,
+			             "nome"  => "OVO MALTINE", 
+				         "tipo"  => "DOCE",
+				         "preco" => "R$ 10,00", 
+						 "foto"  =>"<img src= imagens/OVOMALTINE.jpg>"
+					   ),
+				
+				3 =>  array("id"   => 4,
+				            "nome" => " COMBO", 
+							"tipo" => "DOCE",
+							"preco"=> "R$ 20,00", 
+							"foto" =>"<img src= imagens/combo.jpg>"
+					  ),
 
-		1 => array("id"=>2,"nome" => "PIPOCA NUTELA", 
-			"tipo" => "DOCE",
-			"preco"=> "R$ 10,00"),
+			4 => array("id"=>5,
+						"nome" => "bacon", 
+						"tipo" => "DOCE ",
+						"preco"=> "R$ 18,00",
+						"foto" =>"<img src= imagens/bacon.png>"
+					  ),
 
-		2 =>  array("id"=>3,"nome" => "PIPOCA COM BACON", 
-			"tipo" => "SALGADA",
-			"preco"=> "R$ 10,00"),
+		5 => array( "id"=>6,
+					"nome" => "DEFUMADA", 
+					"tipo" => "SALGADA",
+					"preco"=> "R$ 17,00",
+					"foto" =>"<img src= imagens/defumada.png>"
+				  ),
+
+		6 =>  array("id"   =>7,
+					"nome"=> "MANTEIGA", 
+					"tipo" => "SALGADA",
+					"preco"=> "R$ 10,00", 
+					"foto" =>"<img src= imagens/manteiga.png>"
+				   ),
 			
-		3 =>  array("id"=>4,"nome" => "PIPOCA CACAL CREMOSO", 
-		"tipo" => "SALGADA",
-		"preco"=> "R$ 10,00"),
+		7 =>  array("id"  =>8,
+					"nome" => "TOMATE", 
+					"tipo" => "SALGADA",
+					"preco"=> "R$ 15,00",
+					"foto" =>"<img src= imagens/tomate.png>"
+				 ),
 	);

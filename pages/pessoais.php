@@ -14,24 +14,22 @@
    <body>
 
            <h1>DODOS PESSOAIS</h1>
-           
-           <img src="imagens/faculdade1.jpg" height="200" alt="logo " title="logo"></a>
 
-       <p>
-             <?php 
-           
-        foreach($disciplina as $value){
-          echo $value ("nome");
-          echo "<br>";
-
-        }
-
-        ?>
-
-
-
-
-
+			  	<article>
+				  	<header>         
+						 	<h2>
+                <p><?php echo " MOME: ".($registro["nome"]);?>
+                <p><?php echo " EMAIL: ".($registro["email"]);?>
+                <p><?php echo " CURSO: ".($registro["curso"]);?></p>
+                <p><?php echo "DISIPLINA: ".($registro["disciplina"]);?></p>
+                <p><?php echo " RA: ".($registro["ra"]);?></p>
+                <p><?php echo " MODULO: ".($registro["modulo"]);?></p>
+                <p><?php echo " POLO: ".($registro["polo"]);?></p>
+                </h2>
+              </table>
+					 </header>  
+             <img src="imagens/faculdade.jpg" height="150" alt="logo " title="logo"></a>     
+				 </article>
          </p>
   </body>
 </html>

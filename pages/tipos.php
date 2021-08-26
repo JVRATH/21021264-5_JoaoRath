@@ -1,10 +1,23 @@
+<p> DESCRIÇÃO DO PRODUTO </p>
 <?php
-	include('dados/dados.php');        
-	 
-			  foreach($dados as $value){
+       
+	include('dados/dados.php');    
+    
+    if(isset($_GET["id"]) && !empty($_GET["id"])){
+	$id = $_GET["id"];
+	} else{
+        return 0;
+    }
+    
+	  foreach($dados as $value){
+          if ($value["id"] == $id ){
 			?>
 			   <p>
-					nome:<?=$value["nome"];?>   -  tipo: <?=$value["tipo"];?>
+					SABOR <?=$value["nome"];?> - <?=$value["tipo"];?>   -  PREÇO: <?=$value["preco"];?> 
+					<?=$value["foto"];?>
 			  </p>
               <?php
-              }
+                  }else{
+
+				  }
+            }

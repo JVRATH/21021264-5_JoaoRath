@@ -13,11 +13,9 @@
    </head>
 
    <body>
-
- 
 	  <header class="main_header"> 
-			<div class="main_header_content">
-				<a href="#" class="logo"><img src="imagens/logo.jpg" height="100" alt="logo " title="logo"></a>
+		  <div class="main_header_content">
+				<a href="#" class="logo"><img src="imagens/logo.jpg" height="200" alt="logo " title="logo"></a>
 				
 				<nav class="main_header_content_menu">
 					<ul>
@@ -28,13 +26,9 @@
 						<li><a href="index.php?pg=pages/localizacao.php">LOCALIZAÇÃO</a></li>
 					</ul>
 				</nav>
-			</div>
+		 </div>
 	  </header>
-      <DIV>
- </a>
-				
-
-     </DIV>
+     
 
 	  <MAIn>
 	        <div class="main_cta">
@@ -47,12 +41,11 @@
 							include("$pagina");
 							}
 		                ?>
-				   	</d>
-	            </article>
+				   </div>
+	          </article>
            </div>	
-       
-	   
-	   </MAIn>
+      </MAIn>
+
 	   <footer class="main_optin">
 		  <div class="main_optin_content">
 			 <header>
@@ -61,5 +54,5 @@
 			 </header>
 		  </div>
 	   </footer>
-  </body>
+	 </body>
 </html>
