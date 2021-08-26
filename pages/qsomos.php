@@ -11,19 +11,22 @@
    </head>
 <body>
 	
-         <h1>QUEM SOMOS </h1>
-         <header>
-				<a href="#">
+
+                    <h1>QUEM SOMOS </h1>
+      	<section class="main_blog">
+				<header class="main_blog_header">
+				<H1>EMPRESSA DO RAMO DE PIPOCAS ARTEZANAIS</H1>
+	         
+							<h2>
+						<p> DESDE 1989 NO MERCADO</p>
+                     </H2>
+				<div> 		<a href="#">
                     <img src="imagens/carro.jpg" alt="imagem do produto" title="imagem do produto">
-                </a>
-           </header>
-  
-           
-		  </div>
-	   </footer>
-</body>
+               <h3>
+            EMPRESSA FAMILIAR QUE TEVE ORIGEM NA FINAL DA DECADA DE OITENTA TEMPOS EM QUE NÃO EXISTIA MUITOS MEIO DE COMUNICAÇÃO MAS TENDO ORIGEM NAS RUAS DA CIDADE VENDENDO DE PORTA EM PORTA LOGO DEPOIS COM O ENESTIMAVER CALHANBEK QUE TEMOS ORGULHO DE TELO ATE HOJE COMO LEMBRÇA E HISTORIA DO PASSADO ARDUO DE MUITA LUTA E PERCISTENCIA ONDE MEU SALDOSO PAI DEU ORIGEM A ESTA EMPRESSA ONDE VEM PASSANDO DE GERAÇÃO PARA GERAÇÃO  </p></h3>
+            </div>
+            
+      
+  </body>
 </html>
-
-
-
 
