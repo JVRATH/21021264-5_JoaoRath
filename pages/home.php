@@ -4,13 +4,13 @@
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	  <title>PRINCIPAL </title>
+	  <title>HOME </title>
       <link rel="stylesheet" href="css/boot.css">
       <link rel="stylesheet" href="css/style.css">	 
    </head>
   <body>
 	
-         <h1>QUAL É SEU GOSTO ESCOLHA E SE DELICIE </h1>
+         <h1>QUAL É SEU GOSTO? ESCOLHA E SE DELICIE </h1>
         
 	
 	 
@@ -23,7 +23,7 @@
             
 				</p>
 <h3>
-				<p>COMA A MELHOR PIPOCA ARTEZANAL </p> </h3>
+				<p>SABOREIE A MELHOR PIPOCA ARTESANAL </p> </h3>
 		</header>
 
 	</section>     

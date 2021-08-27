@@ -15,15 +15,15 @@
    <body>
 	  <header class="main_header"> 
 		  <div class="main_header_content">
-				<a href="#" class="logo"><img src="imagens/logo.jpg" height="200" alt="logo " title="logo"></a>
+				<a href="#" class="logo"><img src="imagens/logo.jpg" height="120" alt="logo " title="logo"></a>
 				
 				<nav class="main_header_content_menu">
 					<ul>
-						<li><a href="index.php?pg=pages/home.php">PRINCIPAL</a></li>
+						<li><a href="index.php?pg=pages/home.php">HOME</a></li>
 						<li><a href="index.php?pg=pages/produtos.php">PRODUTO</a></li>
-						<li><a href="index.php?pg=pages/qsomos.php">QUEM SOMOS</a></li>
-						<li><a href="index.php?pg=pages/formulario.PHP">FORMULARIO</a></li>
-						<li><a href="index.php?pg=pages/localizacao.php">LOCALIZAÇÃO</a></li>
+						<li><a href="index.php?pg=pages/qsomos.php">A POPCORN</a></li>
+						<li><a href="index.php?pg=pages/formulario.php">CONTATO</a></li>
+						<li><a href="index.php?pg=pages/localizacao.php">ONDE ENCONTRAR</a></li>
 					</ul>
 				</nav>
 		 </div>

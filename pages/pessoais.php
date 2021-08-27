@@ -13,7 +13,7 @@
    </head>
    <body>
 
-           <h1>DODOS PESSOAIS</h1>
+           <h1>DADOS PESSOAIS</h1>
 
 		<article>
 				<header>         
@@ -21,7 +21,7 @@
                 <p><?php echo " MOME: ".($registro["nome"]);?>
                 <p><?php echo " EMAIL: ".($registro["email"]);?>
                 <p><?php echo " CURSO: ".($registro["curso"]);?></p>
-                <p><?php echo "DISIPLINA: ".($registro["disciplina"]);?></p>
+                <p><?php echo "DISCIPLINA: ".($registro["disciplina"]);?></p>
                 <p><?php echo " RA: ".($registro["ra"]);?></p>
                 <p><?php echo " MODULO: ".($registro["modulo"]);?></p>
                 <p><?php echo " POLO: ".($registro["polo"]);?></p>
