@@ -9,11 +9,43 @@
       <link rel="stylesheet" href="css/boot.css">
       <link rel="stylesheet" href="css/style.css">	 
    </head>
-<body>
-           <h1>FORMULARIO</h1>
-           <img src="imagens/logo.jpg" height="100" alt="logo " title="logo"></a>
+  <body>
+  <form>
+        <fieldset>
+                  <div>
+                     <h1>Fale Conosco</h1>
+                                 <br>
+                  </div>
 
-          <p><?php echo substr($conteudo[0]   ["description"],0, 150);?>...Linguagem de Marcação - Em essência trata-se de um conjunto de regras, códigos e marcadores (ou tags) utilizados para definir principalmente para definir como o conteúdo da página será apresentado.
-         </p>
-  </body>
+            <div >
+                  <p><label for="nome"><strong>Nome</strong></label>
+                    <input type="text" name="nome" id="nome" required></p>
+            </div>
+            
+            <div >
+               <p> <label for="email"><strong>Email</strong></label>
+               <input type="email" name="email" id="email" required></p>
+            </div>
+
+            <div >
+               <p><label for="endereço"><strong>Endereço</strong></label>
+                <input type="text" name="endereço" id="endereço" required></p>
+            </div>
+            
+            <div >
+               <p><label for="telefone"><strong>Telefone</strong></label>
+                <input type="text" name="telefone" id="telefone" required></p>
+            </div>
+       </fieldset> 
+
+       <fieldset >
+            <div >
+                <br>
+                                                <P>Mensagem</P> 
+                <P> <textarea rows="6" style="width: 36em" id="experiencia" name="experiencia"></textarea></P>  
+            </div>
+        </fieldset>
+                          <P><button class="botao" type="submit" onsubmit="">Concluído</button> </P>           
+        </form>
+    </body>
 </html>

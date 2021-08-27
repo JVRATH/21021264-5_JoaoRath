@@ -12,24 +12,18 @@
 <body>
 	
 
-                    <h1>QUEM SOMOS </h1>
-      	<section class="main_blog">
-				<header class="main_blog_header">
-				<H1>EMPRESSA DO RAMO DE PIPOCAS ARTEZANAIS</H1>
-	         
-							<h2>
-						<p> DESDE 1989 NO MERCADO</p>
-                     </H2>
-		<div> 		<a href="#">
-                   <P><img src="imagens/carro.jpg" alt="imagem do produto" title="imagem do produto"></P> 
-         
-             <P> 
-                 EMPRESSA FAMILIAR QUE TEVE ORIGEM NA FINAL DA DECADA DE OITENTA TEMPOS EM QUE NÃO EXISTIA MUITOS MEIO DE COMUNICAÇÃO MAS TENDO ORIGEM NAS RUAS DA CIDADE VENDENDO DE PORTA EM PORTA LOGO DEPOIS COM O ENESTIMAVER CALHANBEK QUE TEMOS ORGULHO DE TELO ATE HOJE COMO LEMBRÇA E HISTORIA DO PASSADO ARDUO DE MUITA LUTA E PERCISTENCIA ONDE MEU SALDOSO PAI DEU ORIGEM A ESTA EMPRESSA ONDE VEM PASSANDO DE GERAÇÃO PARA GERAÇÃO  
-             </p>
-         
-    </div>
-            
-      
+                    <h1>A POPCORN </h1>
+     <section class="main_blog">
+			 <header class="main_blog_header">
+							<h2><p> DESDE 1989 NO MERCADO</p></h2>
+              <div>
+                  <P><img src="imagens/carro.jpg" alt="imagem do produto" title="imagem do produto"></P>
+                        A POPCORN é uma empresa familiar que teve origem no fim da década dos anos oitenta. Tempos em que poucos eram os meios de comunicação. Começamos as vendas de porta em porta com o estimável " CALHAMBEQUE " que nos acompanha desde o inicio da nossa história. 
+                        Prezando pela qualidade e bom atendimento aos nossos clientes o qual são peças fundamentais do nosso sucesso e nos orgulha e nos da força para sempre procurarmos a excelência em tudo que realizamos.
+                        Quando juntadas a explosão de sabores e apresentações impecáveis, à visão empreendedora, era previsível acreditar que isso resultaria em um universo de fãs da PopCorn, que vem transformando a marca em uma bem-sucedida empresa que cresce em ritmo acelerado e que parte, a passos largos, para brilhar no maior mercado de Pipocas.
+             </div>
+          </header>   
+       </section>
   </body>
-</html>
+  </html>
 

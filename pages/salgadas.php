@@ -8,14 +8,14 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	  <title>PRODUTO </title>
+	  <title>SALGADAS </title>
       <link rel="stylesheet" href="css/boot.css">
       <link rel="stylesheet" href="css/style.css">	 
    </head>
    
    <body>
 	   
-   <h1> A MELHOR PIPOCA DA RIGIÃO ESCOLHA A SUA</h1>
+   <h1> A MELHOR PIPOCA DA REGIÃO. ESCOLHA A SUA</h1>
 
 		<section class="main_blog">
 				<header class="main_blog_header">
