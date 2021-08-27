@@ -10,10 +10,11 @@
       <link rel="stylesheet" href="css/style.css">	 
    </head>
   <body>
-  <form>
-        <fieldset>
+  <form><h1>Fale Conosco</h1>
+
+      
                   <div>
-                     <h1>Fale Conosco</h1>
+                    
                                  <br>
                   </div>
 
@@ -35,16 +36,13 @@
             <div >
                <p><label for="telefone"><strong>Telefone</strong></label>
                 <input type="text" name="telefone" id="telefone" required></p>
-            </div>
-       </fieldset> 
-
-       <fieldset >
+           
             <div >
                 <br>
                                                 <P>Mensagem</P> 
                 <P> <textarea rows="6" style="width: 36em" id="experiencia" name="experiencia"></textarea></P>  
             </div>
-        </fieldset>
+    
                           <P><button class="botao" type="submit" onsubmit="">Concluído</button> </P>           
         </form>
     </body>

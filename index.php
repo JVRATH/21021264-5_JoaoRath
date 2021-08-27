@@ -15,7 +15,7 @@
    <body>
 	  <header class="main_header"> 
 		  <div class="main_header_content">
-				<a href="#" class="logo"><img src="imagens/logo.jpg" height="120" alt="logo " title="logo"></a>
+				<a href="index.php?pg=pages/qsomos.php" class="logo"><img src="imagens/logo.jpg" height="120" alt="logo " title="POPCORN"></a>
 				
 				<nav class="main_header_content_menu">
 					<ul>
